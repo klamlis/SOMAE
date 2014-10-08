@@ -13,18 +13,133 @@
     margin-left: 0%;
     margin-top: 0px;
     clear: none;
-    width: 13%;
+    width: 12.999434%;
     background-color: rgb(240, 240, 240);
+}
+
+#logo {
+    float: left;
+    width: auto;
+    height: auto;
+    margin-left: 36.691118%;
+    margin-top: 26.6875px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    max-width: 34.047498%;
+}
+
+#imgProfesor {
+    float: left;
+    width: auto;
+    max-width: 59.503232%;
+    height: auto;
+    margin-left: 19.986927%;
+    margin-top: 8.96875px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+#containerProfesor {
+    float: left;
+    height: 147px;
+    margin-left: 0%;
+    margin-top: 29.171875px;
+    clear: both;
+    width: 100%;
+    background-color: rgb(180, 180, 180);
+}
+
+#tituloTema {
+    float: left;
+    font-size: 25px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0%;
+    margin-top: 23.6875px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(75, 151, 51);
+    font-family: 'trebuchet ms';
+}
+
+#icono {
+    float: left;
+    width: auto;
+    max-width: 13.435979%;
+    height: auto;
+    margin-left: 6.507372%;
+    margin-top: 8px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+}
+
+#containerNuevoTema {
+    float: left;
+    height: 47px;
+    margin-left: 0%;
+    margin-top: 15.65625px;
+    clear: both;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#titulo {
+    float: left;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 16.78408%;
+    margin-top: 16px;
+    clear: none;
+    min-height: 0px;
+    font-family: 'trebuchet ms';
+    color: rgb(75, 151, 51);
+}
+
+#containerNuevoTema1 {
+    float: left;
+    height: 47px;
+    margin-left: 0%;
+    margin-top: 8.65625px;
+    clear: both;
+    width: 100.000004%;
+    background-color: rgb(255, 255, 255);
+    margin-right: 0%;
+}
+
+#titulo1 {
+    float: left;
+    font-size: 1em;
+    width: 76.657709%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 4.016268%;
+    margin-top: 15px;
+    clear: none;
+    min-height: 0px;
+    font-family: 'trebuchet ms';
+    color: rgb(75, 151, 51);
 }
 
 #image {
     float: left;
     width: auto;
+    max-width: 11.438739%;
     height: auto;
-    margin-left: 31.59989%;
-    margin-top: 12px;
+    margin-left: 7.887283%;
+    margin-top: 7px;
     clear: none;
     color: rgb(0, 0, 0);
-    max-width: 38.604555%;
+    margin-right: 0%;
 }
 
