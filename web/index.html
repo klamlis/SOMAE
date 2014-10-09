@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <!-- This code is only meant for previewing your Reflow design. -->
+    <head>
+	<link rel="stylesheet" href="css/lib_index.css" />
+	<link rel="stylesheet" href="css/index.css" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+    <!-- jqueryMobile -->
+    <link rel="stylesheet" href="css/themes/libertadores_final.min.css" />
+    <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+    <!-- final_jqueryMobile -->
+    <script src="js/jquery.mobile-1.4.3.min.js"></script>
+    <script id="panel-init">
+        $(function() {
+            $( "body>[data-role='panel']" ).panel();
+        });
+    </script>
+    </head>
+    <body>
+
+    <div id="primaryContainer" class="primaryContainer clearfix">
+        <img id="image" src="img/logo.png" class="image" />
+        <div id="iniciar_sesion" class="clearfix">
+            <p id="text">
+            iniciar sesión
+            </p>
+            <a href="html/entrar.html" data-rel="dialog" data-transition="pop"><img id="image1" src="img/icono_sesion.png" class="image" /></a>
+
+        </div>
+        <a href="#rightpanel3"><img id="image2" src="img/Captura%20de%20pantalla%202014-09-08%20a%20la(s)%2011.31.27.png" class="image" /></a>
+
+        <!-- MENU -->
+    <div data-role="panel" id="rightpanel3" data-position="right" data-display="overlay" data-theme="a">
+        <h3>Menú</h3>
+        <ol>
+            <li>DESCRIPCIÓN</li>
+            <li>TUTORIALES</li>
+            <li>BLOG</li>
+            <li>CONTACTO</li>
+        </ol>
+    </div>
+        <div id="menu" class="clearfix">
+            <div id="btn_home" class="clearfix">
+                <p id="text1">
+                HOME
+                </p>
+            </div>
+            <a href=""><div id="btn_descripcion" class="clearfix">
+                <p id="text2">
+                DESCRIPCIÓN
+                </p>
+            </div>
+            </a>
+            <a href=""><div id="btn_tutoriales" class="clearfix">
+                <p id="text3">
+                TUTORIALES
+                </p>
+            </div>
+            </a>
+            <a href="">
+                <div id="btn_blog" class="clearfix">
+                <p id="text4">
+                BLOG
+                </p>
+            </div>
+
+            </a>
+            <a href="">
+                <div id="contacto" class="clearfix">
+                <p id="text5">
+                CONTACTO
+                </p>
+            </div>
+            </a>
+
+        </div>
+        <div id="banner_Principal" class="clearfix">
+            <img id="image3" src="img/foto_home.png" class="image" />
+        </div>
+        <div id="box" class="clearfix">
+            <p id="txt_tutoriales">
+            Tutoriales
+            </p>
+            <p id="txt_publicaciones">
+            Publicaciones
+            </p>
+            <p id="txt_proximas">
+            Próximas actualizaciones
+            </p>
+            <p id="txt_guia">
+            Guía rápida
+            </p>
+            <img id="icono_tutoriales" src="img/icono_tutoriales.png" class="image" />
+            <img id="icono_publicaciones" src="img/icono_publicaciones.png" class="image" />
+            <img id="icono_guia" src="img/icono_guia.png" class="image" />
+            <img id="icono_proximas" src="img/icono_actualizaciones.png" class="image" />
+        </div>
+        <div id="box1" class="clearfix">
+            <div id="box2" class="clearfix">
+                <p id="text6">
+                Eventos
+                </p>
+                <div id="box3" class="clearfix">
+                    <p id="text7">
+                    <span id="textspan">5</span><br /><span id="textspan1">JULIO</span>
+                    </p>
+                </div>
+                <p id="text8">
+                Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí".<br />
+                </p>
+                <div id="box4" class="clearfix">
+                    <p id="text9">
+                    <span id="textspan2">14</span><br /><span id="textspan3">AGOSTO</span>
+                    </p>
+                </div>
+                <p id="text10">
+                Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí".<br />
+                </p>
+                <div id="box5" class="clearfix">
+                    <p id="text11">
+                    <span id="textspan4">3</span><br /><span id="textspan5">NOVIEMBRE</span>
+                    </p>
+                </div>
+                <p id="text12">
+                Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí".<br />
+                </p>
+            </div>
+            <div id="box6" class="clearfix">
+                <p id="text13">
+                Iniciar Sesión
+                </p>
+                <div id="box7" class="clearfix">
+                    <br>
+                    <br>
+                    <br>
+                    <input type="text" name="usuario" id="usuario" placeholder="Usuario" value="">
+                    <input type="password" name="password" id="password" placeholder="Contraseña" value="" autocomplete="off">
+                    <input type="button" value="Entrar" id="btn_entrar">
+                </div>
+            </div>
+            <div id="box8" class="clearfix">
+                <p id="text14">
+                Somos una Institución de Educación Superior sujeta a inspección y vigilancia por el Ministerio de Educación Nacional.<br />© Copyright 2012 - Fundación Universitaria Los Libertadores. <br />Todos los derechos reservados.<br />www.ulibertadores.edu.co<br />
+                </p>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
