@@ -1,0 +1,23 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#text {
+    float: left;
+    font-size: 1em;
+    width: 94.750656%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 1.83727%;
+    margin-top: 24px;
+    clear: none;
+    min-height: 397px;
+}
+

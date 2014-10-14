@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <!-- This code is only meant for previewing your Reflow design. -->
+    <head>
+	<link rel="stylesheet" href="boilerplate.css" />
+	<link rel="stylesheet" href="Page 1.css" />
+  <script src="ckeditor.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+  <style>
+
+    div.editable
+    {
+      border: solid 2px transparent;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    div.editable:hover
+    {
+      border-color: black;
+    }
+
+  </style>
+  <script>
+
+    // Uncomment the following code to test the "Timeout Loading Method".
+    // CKEDITOR.loadFullCoreTimeout = 5;
+
+    window.onload = function() {
+      // Listen to the double click event.
+      if ( window.addEventListener )
+        document.body.addEventListener( 'dblclick', onDoubleClick, false );
+      else if ( window.attachEvent )
+        document.body.attachEvent( 'ondblclick', onDoubleClick );
+
+    };
+
+    function onDoubleClick( ev ) {
+      // Get the element which fired the event. This is not necessarily the
+      // element to which the event has been attached.
+      var element = ev.target || ev.srcElement;
+
+      // Find out the div that holds this element.
+      var name;
+
+      do {
+        element = element.parentNode;
+      }
+      while ( element && ( name = element.nodeName.toLowerCase() ) &&
+        ( name != 'div' || element.className.indexOf( 'editable' ) == -1 ) && name != 'body' );
+
+      if ( name == 'div' && element.className.indexOf( 'editable' ) != -1 )
+        replaceDiv( element );
+    }
+
+    var editor;
+
+    function replaceDiv( div ) {
+      if ( editor )
+        editor.destroy();
+
+      editor = CKEDITOR.replace( div );
+    }
+
+  </script>
+    </head>
+    <body>
+    <div class="editable">
+      <h3>
+        EJEMPLO
+      </h3>
+      <p>
+        Hacer doble clic para editar el contenido
+      </p>
+    </div>
+
+    <div id="primaryContainer" class="primaryContainer clearfix">
+    </div>
+    </body>
+</html>
